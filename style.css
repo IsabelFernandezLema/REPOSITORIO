@@ -1,0 +1,107 @@
+/*
+
+esto de momento se comenta*/
+
+body{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+}
+
+header {
+	position: sticky;
+	top: 0;
+}
+
+.nav-flex-container {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: solid 1px grey;
+}
+
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 16px; 
+}
+
+.informacion{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.menuCat span{
+	padding-right: 32px;
+}
+
+.barraH span{
+	padding-right: 8px;
+}
+
+.imgRopa{
+	border-radius: 20px;
+}
+
+.tamañoletra{
+	font-size: 16px;
+}
+
+.tamañotarjeta{
+	front-size: 14px;
+}
+
+.nuevascolecciones{
+	font-size: 32px;
+}
+
+.footer{
+ display: inline-flex;
+ justify-content: space-between;
+ width: 100%;
+ margin-top: 32px;
+ background-color: #212429;
+}
+
+.footer-item{
+	display: inline-flex;
+	justify-content: space-between;
+	color: white;
+	background-color: #212429;
+}
+
+.footerIcons {
+	background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 11px;
+}
+
+.icon-truck {
+	padding: 5px;
+	width: 22px;
+}
+
+.icon-phone {
+	padding: 5px;
+	width: 22px;
+}
+
+.icon-mail {
+	padding: 4px;
+	width:22px;
+}
+
+.mail {
+	margin-right: 11px;
+}
